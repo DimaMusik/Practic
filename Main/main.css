@@ -1,0 +1,42 @@
+.heroSection{
+    display: block;
+    float: right;
+    width:  1792px;
+    height: 981px;
+    left: 128px;
+    color: white;
+}
+
+header{
+    
+    display: flex; 
+    position: absolute; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    min-height: 60px; 
+    top: 50px; 
+    gap: 74px; 
+    left: 0;
+}
+
+.Frame27, .Frame28{
+    display: flex;
+    gap: 40px;
+}
+body {
+    background: #090909;
+}
+
+.header p {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#Rectangle4{
+    float: right;
+}
+main {
+    color: white;
+}
