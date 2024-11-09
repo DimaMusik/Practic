@@ -12,6 +12,12 @@ a{
     color: inherit;
 }
 
+header{
+    z-index: 1000;
+    position: fixed;
+    width: 100vw;
+}
+
 .logoNav{
     margin: 0 35px;
 }
@@ -21,7 +27,7 @@ margin-top: 50px;
 }
 
 .heroSection {
-
+    position: relative;
 }
 
 .container{
@@ -37,5 +43,48 @@ nav ul li:not(:last-child) {
 }
 
 .imageSectionHero{
-    margin-right: 0;
+    position: absolute;
+    right: 0;
+
 }
+ .heroSectionText{
+    height: 981px;
+ }
+
+ .PlateRestaurant{  
+    margin-top: 308px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 135px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+ }
+
+ .PosuereFacilisi{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #BDBDBD;
+    margin-bottom: 49px;
+ }
+
+ .sectionHeroButton{
+    
+    padding: 10px 60px 9px 60px;
+    border: #F8A44E 2px solid;
+ }
+
+ .popularDishesIcon{ 
+    position: ;
+    padding-left: 0px;
+    padding-right: 0;
+ }
+
+ .popularDishesClass:first-child {
+    padding-left: 0px;
+ }
+ .popularDishesClass:last-child{
+    padding-right: 0px;
+ }
