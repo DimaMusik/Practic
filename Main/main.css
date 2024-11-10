@@ -1,90 +1,150 @@
-body{
-    background-color: #090909;
-    color: white;
-}
+body {
+  background-color: #090909;
+  color: white;
 
+}
+/* body::-webkit-scrollbar { 
+    width: 0; 
+} */
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-header{
-    z-index: 1000;
-    position: fixed;
-    width: 100vw;
+header {
+  z-index: 1000;
+  position: fixed;
+  width: 100vw;
 }
 
-.logoNav{
-    margin: 0 35px;
+.logoNav {
+  margin: 0 35px;
 }
 
-.headerNav{
-margin-top: 50px;
+.headerNav {
+  margin-top: 50px;
 }
 
 .heroSection {
-    position: relative;
+  position: relative;
 }
 
-.container{
-    max-width: calc(1664px + 24px);
+.container {
+  max-width: calc(1664px + 24px);
 }
 
 nav ul li a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 nav ul li:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
-.imageSectionHero{
-    position: absolute;
-    right: 0;
-
+.imageSectionHero {
+  position: absolute;
+  right: 0;
 }
- .heroSectionText{
-    height: 981px;
- }
+.heroSectionText {
+  height: 981px;
+}
 
- .PlateRestaurant{  
-    margin-top: 308px;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 90px;
-    line-height: 135px;
-    text-transform: uppercase;
-    letter-spacing: 9px;
- }
+.PlateRestaurant {
+  margin-top: 308px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 135px;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
 
- .PosuereFacilisi{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #BDBDBD;
-    margin-bottom: 49px;
- }
+.PosuereFacilisi {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #bdbdbd;
+  margin-bottom: 49px;
+}
 
- .sectionHeroButton{
+.sectionHeroButton {
+  padding: 10px 60px 9px 60px;
+  border: #f8a44e 2px solid;
+}
+
+.popularDishesGap {
     
-    padding: 10px 60px 9px 60px;
-    border: #F8A44E 2px solid;
- }
+  margin-left: 0;
+  margin-right: 0;
+  gap: 30px;
+}
+.popularDishesClass {
+    position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+.popularDishesIcon{
+    width: 100%;
+    z-index: -1;
+}
+.Rectangle10{
+    
+    background: linear-gradient(180deg, rgba(26, 26, 27, 0) 0%, rgba(26, 26, 27, 0.8) 78.28%, #1A1A1B 100%);
 
- .popularDishesIcon{ 
-    position: ;
-    padding-left: 0px;
-    padding-right: 0;
- }
+    position: absolute;
+    
+gap: 0px;
+opacity: 0.7px;
+top: 0; left: 0; right: 0; bottom: 0;
+}
 
- .popularDishesClass:first-child {
-    padding-left: 0px;
- }
- .popularDishesClass:last-child{
-    padding-right: 0px;
- }
+.popularDishesIconText{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+
+.popularDishesIconText1{
+    top: 75%; left: 0; right: 0; bottom: 0;
+    font-family: Poppins;
+        font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.popularDishesIconText2{
+    top: calc(75% + 39px); left: 0; right: 0; bottom: 0;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+}
+
+.container-fluidAbout{
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.container-fluidAbout img {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+  
+}
+
+.aboutGroupImg{
+ 
+}
+
