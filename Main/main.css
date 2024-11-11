@@ -1,7 +1,6 @@
 body {
   background-color: #090909;
   color: white;
-
 }
 /* body::-webkit-scrollbar { 
     width: 0; 
@@ -46,8 +45,12 @@ nav ul li:not(:last-child) {
 }
 
 .imageSectionHero {
+  width: 50%;
+  height: 100%;
   position: absolute;
   right: 0;
+  object-fit: cover;
+  object-position: left;
 }
 .heroSectionText {
   height: 981px;
@@ -73,78 +76,335 @@ nav ul li:not(:last-child) {
 }
 
 .sectionHeroButton {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+
   padding: 10px 60px 9px 60px;
   border: #f8a44e 2px solid;
 }
 
 .popularDishesGap {
-    
   margin-left: 0;
   margin-right: 0;
   gap: 30px;
 }
 .popularDishesClass {
-    position: relative;
+  position: relative;
   object-fit: cover;
   object-position: center;
 }
-.popularDishesIcon{
-    width: 100%;
-    z-index: -1;
+.popularDishesIcon {
+  width: 100%;
+  z-index: -1;
 }
-.Rectangle10{
-    
-    background: linear-gradient(180deg, rgba(26, 26, 27, 0) 0%, rgba(26, 26, 27, 0.8) 78.28%, #1A1A1B 100%);
+.Rectangle10 {
+  background: linear-gradient(
+    180deg,
+    rgba(26, 26, 27, 0) 0%,
+    rgba(26, 26, 27, 0.8) 78.28%,
+    #1a1a1b 100%
+  );
 
-    position: absolute;
-    
-gap: 0px;
-opacity: 0.7px;
-top: 0; left: 0; right: 0; bottom: 0;
-}
+  position: absolute;
 
-.popularDishesIconText{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: 0; left: 0; right: 0; bottom: 0;
-}
-
-
-.popularDishesIconText1{
-    top: 75%; left: 0; right: 0; bottom: 0;
-    font-family: Poppins;
-        font-size: 26px;
-    font-weight: 500;
-    line-height: 39px;
-    letter-spacing: 0.2em;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
-}
-.popularDishesIconText2{
-    top: calc(75% + 39px); left: 0; right: 0; bottom: 0;
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28.8px;
+  gap: 0px;
+  opacity: 0.7px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.container-fluidAbout{
-    margin-left: 0;
-    margin-right: 0;
+.popularDishesIconText {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
+.popularDishesIconText1 {
+  top: 75%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.popularDishesIconText2 {
+  top: calc(75% + 39px);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.about {
+  margin-top: 140px;
+}
+
+.container-fluidAbout {
+  margin-left: 0;
+  margin-right: 0;
+}
+.aboutText {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutText1 {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 69px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.aboutText2 {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.aboutText3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+
+  color: #090909;
+  width: 332px;
+  height: 48px;
+  display: inline;
+  margin: 60px auto;
+  background-color: #f8a44e;
+  padding: 10px 60px 9px 60px;
 }
 
 .container-fluidAbout img {
-    position: relative;
-    object-fit: cover;
-    object-position: center;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+.workingHoursBox {
+  padding-right: 128px;
+  margin-right: 0px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.workingHoursImg {
+  width: 100%;
+}
+.Group6Text1 {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 69px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.Group6Text2 {
+  padding-right: 21px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 20px;
+
+  color: #bdbdbd;
+}
+.Group6WorkingHours {
+  margin-bottom: 60px;
+  width: 437px;
+}
+
+.Group6WorkingHoursText1 {
+  color: #f8a44e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.Group6WorkingHoursText2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.benefitsContainer {
+}
+
+.benefitsImg {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.benefitsGroup2{
+
+}
+
+.benefitsImgGroup{
+  text-align: center;
+ 
+  margin: 100px auto;
+}
+
+.benefits{
+  background-color: #1A1A1B;
+}
+
+.benefitsImgGroupText1{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 40px auto 10px auto;
+
+}
+
+.benefitsImgGroupText2{
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #BDBDBD;
   
 }
 
-.aboutGroupImg{
- 
+.FAQ{
+  margin: 140px auto;
 }
 
+.FAQText{
+  text-align: center;
+}
+.FAQText1{
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 69px;
+  letter-spacing: 0.2em; 
+  margin: 0px; 
+}
+
+.FAQText2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #BDBDBD;
+  margin: 20px auto 60px; 
+}
+
+.FAQTextFrameHidden{
+  display: none; 
+}
+.Icon{
+  min-width: 20px;
+  height: 10px;
+}
+
+.FAQTextFrame{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+}
+
+.FAQTextFrameTEXPp{
+  padding-top: 20px ;
+  padding-bottom: 20px;
+}
+
+.FAQTextFrameHidden{
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+
+}
+
+.reviews{
+  background-color: #1A1A1B;
+}
+
+.reviewsText1{
+  font-family: Poppins;
+font-size: 46px;
+font-weight: 400;
+line-height: 69px;
+letter-spacing: 0.2em;
+
+
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviewsText2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.review{
+  background-color: #090909;
+  width: 441px;
+}
+.reviewBoxBox{
+
+  margin: 40px 20px auto;
+}
+
+.reviewBoxImages{
+   margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.reviewBoxImage1{
+ padding-bottom: 20px;
+}
+.reviewBoxText{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+}
+
+
+
+
+.slider-container { position: relative; width: 100%; max-width: 600px; margin: auto; overflow: hidden; border: 1px solid #ddd; } .slides { display: flex; transition: transform 0.5s ease-in-out; transform: translateX(-100%); } .slide { min-width: 100%; box-sizing: border-box; } .navigation { position: absolute; top: 50%; width: 100%; display: flex; justify-content: space-between; transform: translateY(-50%); } .prev, .next { background-color: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;
+/*  */
